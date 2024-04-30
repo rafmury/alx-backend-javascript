@@ -1,7 +1,7 @@
 const express = require('express');
 
 const app = express();
-const PORT = 1245;
+const PORT = 1245; // Without quotation marks
 
 app.get('/', (_, res) => {
   res.send('Hello Holberton School!');
@@ -12,3 +12,4 @@ app.listen(PORT, () => {
 });
 
 module.exports = app;
+
